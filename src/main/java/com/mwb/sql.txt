@@ -1,0 +1,12 @@
+DROP SCHEMA IF EXISTS resume;
+CREATE SCHEMA resume DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+USE resume;
+CREATE TABLE `t_contact` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `content` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
