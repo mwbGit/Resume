@@ -17,7 +17,7 @@ public class ContactServlet extends HttpServlet {
         Connection conn = null;
         String sql;
         String url = "jdbc:mysql://localhost:3306/resume?"
-                + "user=root&password=p@swrd123&useUnicode=true&characterEncoding=UTF8";
+                + "user=root&password=admin&useUnicode=true&characterEncoding=UTF8";
         try {
             String name = req.getParameter("name");
             String email = req.getParameter("email");
