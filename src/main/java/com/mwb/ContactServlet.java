@@ -41,7 +41,7 @@ public class ContactServlet extends HttpServlet {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            resp.sendRedirect("index.html");
+            resp.sendRedirect("/resume/index.html");
         }
     }
 

@@ -6,7 +6,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0" metadata-complete="true">
 
-    <display-name>Resume</display-name>
+    <display-name>resume</display-name>
 
     <servlet>
         <servlet-name>ContactServlet</servlet-name>
